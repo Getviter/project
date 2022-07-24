@@ -34,5 +34,10 @@
 // answers[2] = prompt('ti kogda');
 
 
-const result = prompt('Как вас зовут?');
-alert(`Привет, ${result}`);
+// const result = prompt('Как вас зовут?');
+// alert(`Привет, ${result}`);
+
+const rep = true,
+    pop = false;
+
+console.log(rep || pop);
