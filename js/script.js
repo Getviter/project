@@ -37,7 +37,18 @@
 // const result = prompt('Как вас зовут?');
 // alert(`Привет, ${result}`);
 
-const rep = true,
-    pop = false;
+// const rep = true,
+//     pop = false;
 
-console.log(rep || pop);
+// console.log(rep || pop);
+
+console.log ( NaN || 2 || undefined );
+
+console.log ( NaN && 2 && undefined );
+
+console.log ( 1 && 2 && 3 );
+
+console.log ( !1 && 2 || !3 );
+
+    
+}
